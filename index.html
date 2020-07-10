@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <main class="card ">
+                <div class="card-header text-center text-white bg-primary">
+                    <h1>Quote Generator</h1>
+                </div>
+                <div class="card-body center quote" id="newQuoteSection">
+                    <p class="card-text text-center">...</p>
+                </div>
+            </main>
+        </div>
+        <div class="row flex-top justify-content-center">
+            <button id="button" class="btn btn-primary new-quote-btn" onClick="getQuote()">Generate Quote</button>
+        </div>  
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
